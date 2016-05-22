@@ -1,0 +1,38 @@
+<section class="section-about">
+
+  <h3 id="about-me">About Me</h3>
+
+  <div class="face-lockup">
+
+    <div class="face-img"></div>
+
+    <div class="icon-pencil">{% include icons/icon-pencil.html %}</div>
+    <div class="icon-mouse">{% include icons/icon-mouse.html %}</div>
+    <div class="icon-browser">{% include icons/icon-browser.html %}</div>
+    <div class="icon-video">{% include icons/icon-video.html %}</div>
+
+  </div>
+
+  <div class="blurb">
+
+    <p><strong>Ning is good at sleeping and making things happen</strong>, he has a passion for both healthcare and information technology. He wants to make a direct impact on healthcare by providing more usable tools to healthcare providers. Check out his <a href="">website</a> and <a href="">code on github</a>.</p>
+  </div>
+
+  <div class="skill-lockup">
+
+    {% for skill in site.data.settings.skills %}
+
+      <div class="skill-unit">
+        <div class="skill-lable">{{skill.name}}</div>
+        <div class="skill-icons skill-{{ skill.value }}">
+          {% for i in (1..10)%}
+            <span></span>
+          {% endfor %}
+        </div>
+      </div>
+
+    {% endfor%}
+
+  </div>
+
+</section>

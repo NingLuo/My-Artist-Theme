@@ -1,0 +1,25 @@
+footer
+  @extend %header-footer-bg
+
+  .lockup
+    padding: 50px 30px
+    +clearfix
+
+    .content-wrap
+      float: left
+      margin-left: 80px
+
+      a
+        @extend %small-bold
+        color: rgba(0, 0, 0, 0.5)
+        display: inline-block
+        margin-right: 30px
+
+        &:hover
+          color: rgba(0, 0, 0, 0.7)
+
+
+      .copyright
+        margin: 0
+        @extend %small-bold
+        color: rgba(0, 0, 0, 0.4)

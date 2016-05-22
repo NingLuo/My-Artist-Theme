@@ -1,0 +1,49 @@
+.section-form
+  margin-bottom: 60px
+
+form
+  max-width: 450px
+  margin: 0 auto
+
+  input, textarea
+    border: 3px solid $accent
+    width: 100%
+    padding: 10px
+    +box-sizing(border-box)
+
+    &:focus
+      outline: none
+      border-color: $accent-light
+
+  .submit-wrap
+    text-align: right
+
+  [type = "submit"]
+    color: white
+    background-color: $accent
+    font-size: 18px
+    text-transform: uppercase
+    width: 33%
+
+    &:hover
+      background-color: $accent-light
+
+  textarea
+    height: 10em
+
+  .contact-info-group
+    label
+      width: 50%
+      float: left
+      +box-sizing(border-box)
+      &:nth-child(1)
+        padding-right: 2%
+      &:nth-child(2)
+        padding-left: 2%
+
+  label
+    +display(block)
+    margin-bottom: 20px
+
+    span
+      +display(block)

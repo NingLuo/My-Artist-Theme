@@ -1,0 +1,61 @@
+#----------------
+# About Section
+
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Teaching, value: '8'}
+- {name: Planning, value: '6'}
+- {name: Visual Design, value: '7'}
+- {name: UX Design, value: '9'}
+- {name: Programming, value: '9'}
+
+
+#----------------
+# Work Section
+
+projects:
+- {name: Typo International, folder: "proj-1" }
+- {name: American Apperal, folder: "proj-2" }
+- {name: Crisp Icons, folder: "proj-3" }
+- {name: project name, folder: "proj-4" }
+- {name: project name, folder: "proj-5" }
+- {name: project name, folder: "proj-6" }
+- {name: project name, folder: "proj-7" }
+- {name: project name, folder: "proj-8" }
+
+
+
+#----------------
+# Client Section
+
+clients:
+- {avatar: face-aaroni.jpg, name: 'Scott Summers', title: 'Director of Design, Quebec Int.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet.</strong> consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>',
+  logo: logo1.png
+  }
+- {avatar: face-atariboy.jpg, name: 'Jason Bourn', title: 'Director of Design, Quebec Int.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet.</strong> consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>',
+  logo: logo2.png
+  }
+- {avatar: face-jackiesaik.jpg, name: 'Matthew Goodwin', title: 'Director of Design, Quebec Int.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet.</strong> consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>',
+  logo: logo3.png
+  }
+- {avatar: face-teleject.jpg, name: 'Jose Annuziato', title: 'Director of Design, Quebec Int.',
+  quote: '<p><strong>Lorem ipsum dolor sit amet.</strong> consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>',
+  logo: logo4.png
+  }

@@ -1,0 +1,55 @@
+header
+  @extend %header-footer-bg
+  background-position: 30px 20px, 50% 50%
+  padding-bottom: 50px
+
+  nav
+    float: right
+    padding: 30px 30px 0 0
+
+    a
+      display: inline-block
+      margin-left: 20px
+
+      @extend %small-bold
+      color: rgba(0,0,0,0.7)
+
+      &:hover
+        color: rgba(0,0,0,1)
+
+  h1
+    text-align: center
+    font:
+      size: 72px
+      weight: 700
+    color: white
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    margin-bottom: 20px
+    clear: both
+    padding-top: 100px
+
+
+    span
+      display: inline-block
+      border: white solid 10px
+      padding: 0.2em 0.5em
+
+  .kicker
+    @extend %small-bold
+    text-align: center
+    letter-spacing: 0.05em
+    color: white
+    line-height: 1
+
+@media screen and (max-width: 440px)
+  header
+    background-position: 50% 20px, 50% 50%
+
+    nav
+      float: none
+      text-align: center
+      padding-top: 80px
+
+    h1
+      padding-top: 0
