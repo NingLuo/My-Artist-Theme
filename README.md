@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DevTips-Starter-Kit (Jekyll Friendly)
 ===================
 
@@ -11,3 +12,6 @@ Watch the video on YouTube
 alt="Watch the video on youtube" />
 
 </a>
+=======
+# My-Artist-Theme
+>>>>>>> 3d1c543ab24433fb07ac1b67ecad9cf7789a3ca7
